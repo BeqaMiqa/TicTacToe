@@ -1,0 +1,808 @@
+/*.vertln1{
+width: 10px;
+width: 12px;
+background-color: orangered;
+color:transparent;
+position: absolute;
+left: 100px;
+top: 100px;
+
+transform-origin: 0% 0%;
+transition: all 2s;
+}
+.vertln1:hover{
+    height: 500px;
+}
+.vertln2{
+    
+}
+.vertln3{
+    
+}*/
+.mydiv{
+  background-color: orangered;
+  height: 12px;
+  width: 0px;
+  rotate: 90deg;
+  position: absolute;
+  /*left: 831px;*/
+  top: 125px;
+  transform-origin: 0% 0%;
+  z-index: 3;
+  /*animation-name: longate;
+  animation-duration: 4s;*/
+}
+.theanim{
+  animation: longate 1s both;
+}
+@keyframes longate{
+  from{
+    height: 12px;
+  width: 0px;
+  position: absolute;
+  left: 608px;
+  top: 125px; 
+  
+  }
+  to{
+    height: 12px;
+  width: 345px;
+  position: absolute;
+  left: 608px;
+  top: 125px;
+  
+  }
+}
+
+.theanim1{
+  animation: longate1 1s both;
+}
+@keyframes longate1{
+  from{
+    height: 12px;
+    width: 0px;
+    rotate: 90deg;
+    position: absolute;
+    left: 720px;
+    top: 125px; 
+  }
+  to{
+    height: 12px;
+  width: 345px;
+  rotate: 90deg;
+  position: absolute;
+  left: 720px;
+  top: 125px;
+  }
+}
+.theanim2{
+  animation: longate2 1s both;
+}
+@keyframes longate2{
+  from{
+    height: 12px;
+  width: 0px;
+  rotate: 90deg;
+  position: absolute;
+  left: 831px;
+  top: 125px;
+  }
+  to{
+    height: 12px;
+  width: 345px;
+  rotate: 90deg;
+  position: absolute;
+  left: 831px;
+  top: 125px;
+  }
+}
+
+#swithchbutton{
+    border: none;width: 100px;height: 100px;cursor: pointer;background-color: #4ce9b2;position: absolute; left: 550px;top: 138px;
+    -webkit-tap-highlight-color: transparent;
+  }
+  #swithchbutton:active{
+    background-color: none;
+  }
+  #swithchbutton1{
+    border: none;width: 100px;height: 100px;cursor: pointer;background-color: #4ce9b2;position: absolute;left: 662px;top: 138px;-webkit-tap-highlight-color: transparent;
+  }
+  #swithchbutton1:active{
+    background-color: none;
+  }
+  #swithchbutton2{
+    border: none;width: 100px;height: 100px;cursor: pointer;background-color: #4ce9b2;position: absolute;left: 774px;top: 138px;-webkit-tap-highlight-color: transparent;
+  }
+  #swithchbutton2:active{
+    background-color: none;
+  }
+  #swithchbutton3{
+    border: none;width: 100px;height: 100px;cursor: pointer;background-color: #4ce9b2; position: absolute;left: 550px;top: 250px;-webkit-tap-highlight-color: transparent;
+  }
+  #swithchbutton3:active{
+    background-color: none;
+  }
+  #swithchbutton4{
+    border: none;width: 100px;height: 100px;cursor: pointer;background-color: #4ce9b2;position: absolute;left: 662px;top: 250px;-webkit-tap-highlight-color: transparent;
+  }
+  #swithchbutton4:active{
+    background-color: none;
+  }
+  #swithchbutton5{
+    border: none;width: 100px;height: 100px;cursor: pointer;background-color: #4ce9b2;position: absolute;left: 774px;top: 250px;-webkit-tap-highlight-color: transparent;
+  }
+  #swithchbutton5:active{
+    background-color: none;
+  }
+  #swithchbutton6{
+    border: none;width: 100px;height: 100px;cursor: pointer;background-color: #4ce9b2;position: absolute;left: 550px;top: 362px;-webkit-tap-highlight-color: transparent;
+  }
+  #swithchbutton6:active{
+    background-color: none;
+  }
+  #swithchbutton7{
+    border: none;width: 100px;height: 100px;cursor: pointer;background-color: #4ce9b2; position: absolute;left: 662px;top: 362px;-webkit-tap-highlight-color: transparent;
+  }
+  #swithchbutton7:active{
+    background-color: none;
+  }
+  #swithchbutton8{
+    border: none;width: 100px;height: 100px;cursor: pointer;background-color: #4ce9b2;position: absolute;left: 774px;top: 362px;-webkit-tap-highlight-color: transparent;
+  }
+  #swithchbutton8:active{
+    background-color: none;
+  }
+
+.rotate{
+    background-color: black;
+    
+    z-index: 3;
+    position: absolute;
+    transition: all 1s;
+}
+.rotate:hover{
+    rotate: -45deg;
+    padding-right: 100px;
+}
+.line {
+    position: absolute;
+    top: 465px;
+    left: 540px;
+    width: 0px;
+    height: 10px;
+    rotate: -45deg;
+    background-color: orangered;
+    transform-origin: 0% 0%;
+    animation: drawline 2s linear;
+}
+
+/*@keyframes drawline {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 500px;
+  }
+}*/
+.diag{
+    position: absolute;
+    top:120px;
+    left: 540px;
+    transform-origin: 0% 0%;
+    background-color: orangered;
+    width: 0px;
+    height: 10px;
+    rotate: 45deg;
+}
+.lnhr1cs{
+    position: absolute;
+    width: 0px;
+    height: 10px;
+    background-color: orangered;
+    top: 182px;
+    left: 542px;
+    z-index: 3;
+}
+.lnhr2cs{
+    position: absolute;
+    width: 0px;
+    height: 10px;
+    background-color: orangered;
+    top: 294px;
+    left: 542px;
+    z-index: 3;
+}
+.lnhr3cs{
+    position: absolute;
+    width: 0px;
+    height: 10px;
+    background-color: orangered;
+    top: 408px;
+    left: 542px;
+    z-index: 3;
+}
+/*.bordln{
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    width: 10px;
+    height: 10px;
+    transform-origin: 0% 0%;
+    background-color: black;
+    rotate: 90deg;
+    transition: padding-left 1s;
+  
+    
+    
+}
+.bordln:hover{
+    scale: 200%;
+}
+*/
+
+.bordln {
+    position: absolute;
+    left: 650px; /* place the center of the box at the center of the container */
+    top: 200px;
+    transform:scaleY(1.6) ; /* start with full height */
+    transform-origin: center; /* scale around the center */
+    transition: transform 0.5s ease-in-out; /* smooth transition */
+    width: 12px; /* width of the box */
+    height: 200px; /* height of the box */
+    background-color: black; /* make the box visible */
+    animation-name: shape-transformation ;
+    animation-duration: 1s;
+}
+.animateY {
+    animation: animationY 1s ;
+  }
+  @keyframes animationY{
+0%{transform:scaleY(1.6) ;}
+50%{transform:scaleY(0) ;}
+100%{transform:scaleY(1.6) ;}
+  }
+@keyframes shape-transformation{
+    0% {
+        transition: transform 0.5s ease-in-out;
+        transform:scaleY(1.6) ;
+      }
+    50% {transition: transform 0.5s ease-in-out;
+        transform:scaleY(0) ;
+      }
+    100% {
+        transition: transform 0.5s ease-in-out;
+        transform:scaleY(1.6) ;
+      }
+          
+        }
+
+
+.bordln1 {
+    position: absolute;
+    left: 762px; /* place the center of the box at the center of the container */
+    top: 200px;
+    transform:scaleY(1.6) ; /* start with full height */
+    transform-origin: center; /* scale around the center */
+    transition: transform 0.5s ease-in-out; /* smooth transition */
+    width: 12px; /* width of the box */
+    height: 200px; /* height of the box */
+    background-color: black; /* make the box visible */
+    animation-name: shape-transformation ;
+    animation-duration: 1s;
+}
+.animateY {
+    animation: animationY 1s ;
+  }
+
+
+@keyframes animateX{
+    0%{transform:scaleX(1.6) ;}
+    50%{transform:scaleX(0) ;}
+    100%{transform:scaleX(1.6) ;}
+}
+
+@keyframes transformX{
+    0%{transform:scaleX(1.6) ;}
+    50%{transform:scaleX(0) ;}
+    100%{transform:scaleX(1.6) ;}
+}
+.bordln2 {
+    position: absolute;
+    left: 612px; /* place the center of the box at the center of the container */
+    top:238px ;
+    transform:scaleX(1.6) ; /* start with full height */
+    transform-origin: center; /* scale around the center */
+    transition: transform 0.5s ease-in-out; /* smooth transition */
+    width:200px ; /* width of the box */
+    height: 12px; /* height of the box */
+    background-color: black; /* make the box visible */
+    animation-name: transformX;
+    animation-duration: 1s;
+}
+.animateX {
+    animation: animateX 1s;
+    }
+.bordln3 {
+    position: absolute;
+    left: 612px; /* place the center of the box at the center of the container */
+    top:350px ;
+    transform:scaleX(1.6) ; /* start with full height */
+    transform-origin: center; /* scale around the center */
+    transition: transform 0.5s ease-in-out; /* smooth transition */
+    width:200px ; /* width of the box */
+    height: 12px; /* height of the box */
+    background-color: black; /* make the box visible */
+    animation-name: transformX;
+    animation-duration: 1s;
+}
+.animateX{
+    animation: animateX 1s;
+} 
+.size{
+    position: absolute;
+    left:662px;
+    top: 250px;
+    width: 100px;
+    height: 100px;
+}
+.reset{
+    background-color:#97e7cb; 
+    color: #074f36;
+    border-radius: 25px;
+    border-color: #97e7cb;
+    border-style: solid;
+    position: absolute;
+    top: 500px;
+    left: 550px;
+    width: 324px;
+    cursor: pointer;-webkit-tap-highlight-color: transparent;
+}
+.reset:hover{
+    color: #0f9f6d ;
+}
+.reset:active{
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.204);
+}
+#pointerX{
+    background-color:#97e7cb; 
+    color: #ffffff;
+    border-radius: 15px;
+    border-color: #97e7cb;
+    border-style: solid;
+    width: 100px;
+    height: 50px;
+    position:absolute;
+    top: 10px;
+    left: 550px;
+    padding-left: 50px;
+    padding-top: 25px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#pointerO{
+    width: 100px;
+    height: 50px;
+    background-color:#97e7cb; 
+    color: #ffffff;
+    border-radius: 15px;
+    border-color: #97e7cb;
+    border-style: solid;
+    position:absolute;
+    top: 10px;
+    left: 715px;
+    padding-left: 50px;
+    padding-top: 25px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.restscr{
+    background-color:#97e7cb; 
+    color: #074f36;
+    border-radius: 25px;
+    border-color: #97e7cb;
+    border-style: solid;
+    position: absolute;
+    top: 550px;
+    left: 550px;
+    width: 324px;
+    cursor: pointer;-webkit-tap-highlight-color: transparent;
+}
+.restscr:hover{
+    color: #0f9f6d ;
+}
+.restscr:active{
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.204); 
+}
+
+#whowon{
+    color: white;
+    position: absolute;
+    left: 650px;
+    top: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+#Rectangle2{
+  height: 0px;
+  /*animation-name:Xnim;
+  animation-duration: 0.25s; 
+  animation-fill-mode: forwards;
+  animation-delay: 0.2s;*/
+  
+  }
+  #Rectangle2:hover{
+    animation: Xnim 1s forwards;
+    }
+  #Rectangle3{
+    height: 0px;
+    /*animation-name:Xnim;
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards;*/
+    }
+  #Rectangle3:hover{
+      animation: Xnim 0.25s forwards;
+      }
+  .Xcapsule1{
+    animation:Xnim 0.25s forwards; 
+    animation-delay: 0.2s;
+  }
+  .Xcapsule{
+    animation:Xnim 0.25s forwards; 
+  }
+  @keyframes Xnim{
+    from{height: 0px;}
+    to{height: 115px;}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width:600px) {
+    .line {
+        position: absolute;
+        top: 465px;
+        left: 240px;
+        width: 0px;
+        height: 10px;
+        rotate: -45deg;
+        background-color: orangered;
+        transform-origin: 0% 0%;
+        animation: drawline 2s linear;
+        
+    }
+    .diag{
+        position: absolute;
+        top:120px;
+        left: 240px;
+        transform-origin: 0% 0%;
+        background-color: orangered;
+        width: 0px;
+        height: 10px;
+        rotate: 45deg;
+        
+    }
+    .lnhr1cs{
+        position: absolute;
+        width: 0px;
+        height: 10px;
+        background-color: orangered;
+        top: 182px;
+        left: 242px;
+        z-index: 3;
+        
+    }
+    .lnhr2cs{
+        position: absolute;
+        width: 0px;
+        height: 10px;
+        background-color: orangered;
+        top: 294px;
+        left: 242px;
+        z-index: 3;
+        
+    }
+    .lnhr3cs{
+        position: absolute;
+        width: 0px;
+        height: 10px;
+        background-color: orangered;
+        top: 408px;
+        left: 242px;
+        z-index: 3;
+        
+    }
+    .bordln {
+        position: absolute;
+        left: 350px; /* place the center of the box at the center of the container */
+        top: 200px;
+        transform:scaleY(1.6) ; /* start with full height */
+        transform-origin: center; /* scale around the center */
+        transition: transform 0.5s ease-in-out; /* smooth transition */
+        width: 12px; /* width of the box */
+        height: 200px; /* height of the box */
+        background-color: black; /* make the box visible */
+        animation-name: shape-transformation ;
+        animation-duration: 1s;
+        
+    }
+    .animateY {
+        animation: animationY 1s ;
+      }
+      @keyframes animationY{
+    0%{transform:scaleY(1.6) ;}
+    50%{transform:scaleY(0) ;}
+    100%{transform:scaleY(1.6) ;}
+      }
+    @keyframes shape-transformation{
+        0% {
+            transition: transform 0.5s ease-in-out;
+            transform:scaleY(1.6) ;
+          }
+        50% {transition: transform 0.5s ease-in-out;
+            transform:scaleY(0) ;
+          }
+        100% {
+            transition: transform 0.5s ease-in-out;
+            transform:scaleY(1.6) ;
+          }
+              
+            }
+    
+    
+    .bordln1 {
+        position:absolute;
+        left: 462px; /* place the center of the box at the center of the container */
+        top: 200px;
+        transform:scaleY(1.6) ; /* start with full height */
+        transform-origin: center; /* scale around the center */
+        transition: transform 0.5s ease-in-out; /* smooth transition */
+        width: 12px; /* width of the box */
+        height: 200px; /* height of the box */
+        background-color: black; /* make the box visible */
+        animation-name: shape-transformation ;
+        animation-duration: 1s;
+        
+    }
+    .animateY {
+        animation: animationY 1s ;
+      }
+    
+    
+    @keyframes animateX{
+        0%{transform:scaleX(1.6) ;}
+        50%{transform:scaleX(0) ;}
+        100%{transform:scaleX(1.6) ;}
+    }
+    
+    @keyframes transformX{
+        0%{transform:scaleX(1.6) ;}
+        50%{transform:scaleX(0) ;}
+        100%{transform:scaleX(1.6) ;}
+    }
+    .bordln2 {
+        position: absolute;
+        left: 312px; /* place the center of the box at the center of the container */
+        top:238px ;
+        transform:scaleX(1.6) ; /* start with full height */
+        transform-origin: center; /* scale around the center */
+        transition: transform 0.5s ease-in-out; /* smooth transition */
+        width:200px ; /* width of the box */
+        height: 12px; /* height of the box */
+        background-color: black; /* make the box visible */
+        animation-name: transformX;
+        animation-duration: 1s;
+        
+    }
+    .animateX {
+        animation: animateX 1s;
+        }
+    .bordln3 {
+        position: absolute;
+        left: 312px; /* place the center of the box at the center of the container */
+        top:350px ;
+        transform:scaleX(1.6) ; /* start with full height */
+        transform-origin: center; /* scale around the center */
+        transition: transform 0.5s ease-in-out; /* smooth transition */
+        width:200px ; /* width of the box */
+        height: 12px; /* height of the box */
+        background-color: black; /* make the box visible */
+        animation-name: transformX;
+        animation-duration: 1s;
+        
+    }
+    .animateX{
+        animation: animateX 1s;
+    } 
+    .size{
+        position: absolute;
+        left:662px;
+        top: 250px;
+        width: 100px;
+        height: 100px;
+        
+    }
+    .reset{
+        background-color:#97e7cb; 
+        color: #074f36;
+        border-radius: 25px;
+        border-color: #97e7cb;
+        border-style: solid;
+        position: absolute;
+        top: 500px;
+        left: 250px;
+        width: 324px;
+        cursor: pointer;
+        
+    }
+    .reset:hover{
+        color: #0f9f6d ;
+    }
+    #pointerX{
+        background-color:#97e7cb; 
+        color: #ffffff;
+        border-radius: 15px;
+        border-color: #97e7cb;
+        border-style: solid;
+        width: 100px;
+        height: 50px;
+        position:absolute;
+        top: 10px;
+        left: 250px;
+        padding-left: 50px;
+        padding-top: 25px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    #pointerO{
+        width: 100px;
+        height: 50px;
+        background-color:#97e7cb; 
+        color: #ffffff;
+        border-radius: 15px;
+        border-color: #97e7cb;
+        border-style: solid;
+        position:absolute;
+        top: 10px;
+        left: 415px;
+        padding-left: 50px;
+        padding-top: 25px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    .restscr{
+        background-color:#97e7cb; 
+        color: #074f36;
+        border-radius: 25px;
+        border-color: #97e7cb;
+        border-style: solid;
+        position: absolute;
+        top: 550px;
+        left: 250px;
+        width: 324px;
+        cursor: pointer;
+        
+    }
+    .restscr:hover{
+        color: #0f9f6d ;
+    }
+    
+    #whowon{
+        color: white;
+        position: absolute;
+        left: 350px;
+        top: 550px;
+        width: 500px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        
+    }
+    #swithchbutton{
+      border: none;width: 100px;height: 100px;cursor: pointer;background-color: #4ce9b2;position: absolute; left: 250px;top: 138px;
+    }
+    #swithchbutton1{
+      border: none;width: 100px;height: 100px;cursor: pointer;background-color: #4ce9b2;position: absolute;left: 362px;top: 138px;
+    }
+    #swithchbutton2{
+      border: none;width: 100px;height: 100px;cursor: pointer;background-color: #4ce9b2;position: absolute;left: 474px;top: 138px;
+    }
+    #swithchbutton3{
+      border: none;width: 100px;height: 100px;cursor: pointer;background-color: #4ce9b2; position: absolute;left: 250px;top: 250px;
+    }
+    #swithchbutton4{
+      border: none;width: 100px;height: 100px;cursor: pointer;background-color: #4ce9b2;position: absolute;left: 362px;top: 250px;
+    }
+    #swithchbutton5{
+      border: none;width: 100px;height: 100px;cursor: pointer;background-color: #4ce9b2;position: absolute;left: 474px;top: 250px;
+    }
+    #swithchbutton6{
+      border: none;width: 100px;height: 100px;cursor: pointer;background-color: #4ce9b2;position: absolute;left: 250px;top: 362px;
+    }
+    #swithchbutton7{
+      border: none;width: 100px;height: 100px;cursor: pointer;background-color: #4ce9b2; position: absolute;left: 362px;top: 362px;
+    }
+    #swithchbutton8{
+      border: none;width: 100px;height: 100px;cursor: pointer;background-color: #4ce9b2;position: absolute;left: 474px;top: 362px;
+    }
+}
+/*
+.theanim{
+  animation: longate 1s both;
+}
+@keyframes longate{
+  from{
+    height: 12px;
+  width: 0px;
+  position: absolute;
+  left: 308px;
+  top: 125px; 
+  }
+  to{
+    height: 12px;
+  width: 345px;
+  position: absolute;
+  left: 308px;
+  top: 125px;
+  }
+}
+.theanim1{
+  animation: longate1 1s both;
+}
+@keyframes longate1{
+  from{
+    height: 12px;
+    width: 0px;
+    rotate: 90deg;
+    position: absolute;
+    left: 420px;
+    top: 125px; 
+  }
+  to{
+    height: 12px;
+  width: 345px;
+  rotate: 90deg;
+  position: absolute;
+  left: 420px;
+  top: 125px;
+  }
+}
+.theanim2{
+  animation: longate2 1s both;
+}
+@keyframes longate2{
+  from{
+    height: 12px;
+  width: 0px;
+  rotate: 90deg;
+  position: absolute;
+  left: 531px;
+  top: 125px;
+  }
+  to{
+    height: 12px;
+  width: 345px;
+  rotate: 90deg;
+  position: absolute;
+  left: 531px;
+  top: 125px;
+  }
+}*/
+  

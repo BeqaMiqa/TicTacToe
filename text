@@ -1,0 +1,35 @@
+//horizontal win
+if(t1==t2 && t2==t3){
+    if(t1==1)par.innerHTML="X won";
+    else par.innerHTML="O won";
+}
+if(t4==t5 && t5==t6){
+    if(t4==1)par.innerHTML="X won";
+    else par.innerHTML="O won";
+}
+if(t7==t8 && t8==t9){
+    if(t7==1)par.innerHTML="X won";
+    else par.innerHTML="O won";
+}
+//vertical win
+if(t1==t4 && t4==t7){
+    if(t1==1)par.innerHTML="X won";
+    else par.innerHTML="O won";
+}
+if(t2==t5 && t5==t8){
+    if(t2==1)par.innerHTML="X won";
+    else par.innerHTML="O won";
+}
+if(t3==t6 && t6==t9){
+    if(t3==1)par.innerHTML="X won";
+    else par.innerHTML="O won";
+}
+//diagonal win 1
+if(t1==t5 && t5==t9){
+    if(t1==1)par.innerHTML="X won";
+    else par.innerHTML="O won";
+}
+if(t7==t5 && t5==t3){
+    if(t7==1)par.innerHTML="X won";
+    else par.innerHTML="O won";
+}
